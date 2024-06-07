@@ -1,8 +1,8 @@
 {
   "scripts": {
     "postinstall": "prisma generate",
-    "start": "nodemon index.js",
-    "dev": "nodemon index.js",
+    "start": "nodemon api/index.js",
+    "dev": "nodemon api/index.js",
     "build": "prisma generate"
   },
   "dependencies": {
